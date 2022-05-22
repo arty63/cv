@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+@import url(https://fonts.googleapis.com/css?family=Poppins:700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0 75px; }
+    @media (max-width: 679.98px) {
+      h3 {
+        font-size: 14px; } }
+    h3::after {
+      content: " ";
+      padding: 1.5px 15%;
+      background-color: #c8bfff;
+      width: 10%; }
+      @media (max-width: 1279.98px) {
+        h3::after {
+          width: 30%; } }
+.colored {
+  color: #c8bfff; }
+  .colored::after {
+    content: " ";
+    background-color: #fff; }

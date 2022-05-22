@@ -1,0 +1,24 @@
+.button {
+    display: block;
+    width: 200px;
+    height: 40px;
+    align-self: center;
+    margin-bottom: 25px;
+    padding: 10px 25px;
+    background-color: #ffae82;
+    text-align: center;
+    line-height: 18px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    border: 1px transparent solid;
+    transition: 0.75s; }
+    @media (max-width: 1279.98px) {
+      .button {
+        font-size: 14px; } }
+    .button:hover {
+      background-color: transparent;
+      color: #c8bfff;
+      transition: 0.75s;
+      width: 80vw;
+      border: 1px #ffae82 solid; }
+  

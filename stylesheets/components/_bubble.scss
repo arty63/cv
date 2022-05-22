@@ -1,0 +1,29 @@
+.buble-up {
+    position: absolute;
+    right: 100px;
+    bottom: 200px;
+    background-color: #ffae82;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    animation: growing 0.7s ease infinite alternate; 
+    font-size:large;
+}
+    .buble-up:hover {
+      border: 2px solid #ffae82;
+      background-color: transparent;
+      transition: 0.5s;
+      color: #c8bfff; }
+    @media (max-width: 1140px) {
+      .buble-up {
+        display: none; } }
+  
+  @keyframes growing {
+    100% {
+    transform:scale(1.1);
+  } }

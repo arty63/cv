@@ -1,0 +1,16 @@
+body{
+    font-family: "Poppins", "Montserrat", sans-serif;
+}
+.button, .about__description, .footer___text, .contacts__item, .code, .buble-up {
+    font-family: "Poppins", "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 150%;
+    color: #fff; }
+    @media (max-width: 1279.98px) {
+      .button, .about__description, .footer___text, .contacts__item, .code, .buble-up {
+        font-size: 12px; } }
+    @media (max-width: 679.98px) {
+      .button, .about__description, .footer___text, .contacts__item, .code, .buble-up {
+        font-size: 10px; } }
